@@ -33,6 +33,12 @@ https://jsfiddle.net/sebastian_345/m9c5hf47/
 ![fac](https://user-images.githubusercontent.com/61298440/80667354-920e6100-8a64-11ea-871f-1485e49a2995.jpg)
 
 
+determinar si un alumno aprueba un curso, sabiendo que aprobara si su promedio de tres calificaciones es mayor o igual a 70,
+reprueba en caso cotrario 
+
+https://jsfiddle.net/sebastian_345/3mpkyg85/
+
+
 
 
 
