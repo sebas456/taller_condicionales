@@ -18,4 +18,12 @@ https://jsfiddle.net/sebastian_345/v1zchwx5/
 ![impar](https://user-images.githubusercontent.com/61298440/80666909-5aeb8000-8a63-11ea-8f65-f216d4195697.jpg)
 
 
+dados tres numero calcular el mayor 
+
+https://jsfiddle.net/sebastian_345/6kva0pyn/
+
+
+
+
+
 
