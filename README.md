@@ -22,6 +22,8 @@ dados tres numero calcular el mayor
 
 https://jsfiddle.net/sebastian_345/6kva0pyn/
 
+![nmayor](https://user-images.githubusercontent.com/61298440/80667158-f7158700-8a63-11ea-8e31-419dcafa6412.jpg)
+
 
 
 
