@@ -39,6 +39,12 @@ reprueba en caso cotrario
 https://jsfiddle.net/sebastian_345/3mpkyg85/
 
 
+![mganada](https://user-images.githubusercontent.com/61298440/80667679-722b6d00-8a65-11ea-937f-a6bdb099f04b.jpg)
+
+![mper](https://user-images.githubusercontent.com/61298440/80667694-79527b00-8a65-11ea-873c-accf2633c1bf.jpg)
+
+
+
 
 
 
