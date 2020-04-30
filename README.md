@@ -30,6 +30,9 @@ factorial de un numero entero
 https://jsfiddle.net/sebastian_345/m9c5hf47/
 
 
+![fac](https://user-images.githubusercontent.com/61298440/80667354-920e6100-8a64-11ea-871f-1485e49a2995.jpg)
+
+
 
 
 
