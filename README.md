@@ -13,4 +13,8 @@ si un numero ingresado desde teclado es un numero par o impar
 
 https://jsfiddle.net/sebastian_345/v1zchwx5/
 
+![par](https://user-images.githubusercontent.com/61298440/80666893-5030eb00-8a63-11ea-9181-df106eb9b97c.jpg)
+![impar](https://user-images.githubusercontent.com/61298440/80666909-5aeb8000-8a63-11ea-8f65-f216d4195697.jpg)
+
+
 
