@@ -9,3 +9,8 @@ https://jsfiddle.net/sebastian_345/b4vzsn2t/
 ![edadm](https://user-images.githubusercontent.com/61298440/80666549-2e833400-8a62-11ea-8e63-ed6b805aa014.jpg)
 
 
+si un numero ingresado desde teclado es un numero par o impar 
+
+https://jsfiddle.net/sebastian_345/v1zchwx5/
+
+
