@@ -1,111 +1,23 @@
-#cabecera {
-  margin: auto;
-}
 
-ul, ol {
-  list-style: none;
-}
-
-.nav {
-  display: inline-block;
-
-  li {
-    background-color: transparent;
-    color: #1F1F1F;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-
-    &:hover {
-      background-color: gray;
-    }
-
-    ul {
-      display: none;
-      position: absolute;
-      min-width: 140px;
-    }
-
-    &:hover > ul {
-      display: block;
+.container{
+  max-width: 95%;
+  margin-top: 30px;
+  margin-left: 20px;
+  .my-card{
+    margin : 20px;
+    .form-inline{
+      margin-bottom: 20px;
+      .input{
+        margin-left: 20px;
+      }
+     .my-btn{
+        margin-left : 20px;
+      }
     }
   }
-
-  > li {
-    float: left;
+  #result{
+    min-width:100%;
+    margin-top : 30px;
+    margin-left : 35%;
+    }
   }
-}
-
-.papert {
-  color: #363636;
-  line-height: 1rem;
-  margin: .4rem 0 .25rem;
-  font-family: "SSTPro-Bold","arial",sans-serif;
-  text-align: justify;
-  border: 18px solid white;
-  vertical-align: inherit;
-  text-align: end;
-}
-
-.imgjuegos, .imjuegos {
-  display: inline;
-  display: flex;
-}
-
-.mas {
-  background: white;
-  color: #0070cc;
-  display: inline-block;
-  font-size: 20px;
-  margin: 50px 400px;
-  padding: 10px 0px;
-  text-align: center;
-  width: 200px;
-  text-decoration: none;
-  transition: all .25s ease-in-out;
-  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0);
-  align-content: center;
-}
-
-.sesion {
-  background-color: black;
-  color: white;
-  padding: 15px 25px;
-  align-content: right 100px;
-  display: inline-block;
-}
-
-.pre {
-  font-family: "SSTPro-Bold","arial",sans-serif;
-  color: #373a3c;
-  font-size: 24px;
-  line-height: 1.25em;
-  font-weight: initial;
-}
-
-.textp {
-  font-size: 20px;
-  line-height: 1.5em;
-  font-family: "SSTPro-Roman","arial",sans-serif;
-  font-weight: initial;
-  margin-top: 1px;
-  margin-bottom: .3rem;
-  color: #373a3c;
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-}
-
-.textd {
-  line-height: 0.8px;
-  font-family: "SSTPro-Roman","arial",sans-serif;
-  font-weight: initial;
-  margin-top: 1px;
-  margin-bottom: .3rem;
-  color: #373a3c;
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-}
