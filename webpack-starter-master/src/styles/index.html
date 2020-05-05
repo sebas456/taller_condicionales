@@ -95,7 +95,44 @@
       </div>
      </div>
     </div>
-
+    <br><br><br>
+    <h4>factorial de un numero entero</h4>
+    <div class="container">
+     <div class="my-card card">
+       <div class="card-body">
+        <div class="form-inline" >
+         <label for="">Numero</label>
+         <input type="text" class="form-control" id="nu">
+        </div>
+        <div class="form-inline" >
+         <button class="btn btn-warning" onclick="calculat()">Calcular</button>
+        </div>
+        <label for=""> Factorial : </label>
+        <h5 id="res"></h5>
+      </div>
+     </div>
+    </div>
+    <br><br><br>
+    <h4>determinar si un alumno aprueba un curso, sabiendo que aprobara si su 
+        promedio de tres calificaciones es mayor o igual a 70, reprueba en caso cotrario</h4>
+    <div class="container">
+        <h3>Ingrese notas</h3>
+       <div class="my-card card">
+         <div class="card-body">   
+          <div class="form-inline">
+           <input type="text" class="form-control" id="not1">
+           <input type="text" class="form-control" id="not2">
+           <input type="text" class="form-control" id="not3">
+          </div>
+            <button class="btn btn-primary" onclick="main2()">promediar</button>
+            <div class="form-inline" >
+            <span>promedio: </span> 
+            <h5 id="prom" class="">        </h5>   
+            </div>
+            <h5 id="re" class=""></h5> 
+          </div>
+        </div>
+    </div>
 </body>
 <script>
 /*sumar dos numeros e imprimir resultado*/
@@ -252,6 +289,60 @@ resultado3.innerHTML = " "
  resultado3.classList.add("text-success");
 
  }
+
+ /*factorial de un numero entero*/
+const nu = document.getElementById("nu");
+const res = document.getElementById("res");
+function calculat(){
+let n =  parseInt(nu.value)
+let tot = 1; 
+	for (i=1; i<=n; i++) {
+		tot=tot*i; 
+	}
+	res.innerHTML = `${tot}`;
+}
+ /*determinar si un alumno aprueba un curso, sabiendo 
+ que aprobara si su promedio de tres calificaciones
+  es mayor o igual a 70, reprueba en caso cotrario*/
+const note1 = document.getElementById("not1");
+const note2 = document.getElementById("not2");
+const note3 = document.getElementById("not3");
+const respuesta = document.getElementById("re");
+const promedio = document.getElementById("prom");
+
+
+
+function main2(){
+	const n1 = parseInt(note1.value);
+    const n2 = parseInt(note2.value);
+	const n3 = parseInt(note3.value);
+
+if(!n1 || !n2 || !n3){
+validation(n1,n2,n3);
+}else{
+media(n1,n2,n3);
+	}
+}
+
+function media(n1,n2,n3){
+ const promedi0 = (n1+n2+n3)/3
+ 
+   promedio.innerHTML = promedi0;
+   re(promedi0);
+}
+
+function re(pro){
+    respuesta.classList.remove("text-danger");
+    respuesta.classList.add("text-success");
+if (pro < 70 ){      respuesta.classList.add("text-danger");
+
+   respuesta.innerHTML = "No pasaste la materia";
+} 
+else {
+   respuesta.innerHTML = "Pasaste la meteria";
+	}
+}
+
 
 
 </script>
