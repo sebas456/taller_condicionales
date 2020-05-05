@@ -1,5 +1,11 @@
 # taller_condicionales
 
+![nm](https://user-images.githubusercontent.com/61298440/81125419-b2736b00-8efd-11ea-8244-fe3b84b4141e.jpg)
+![nms](https://user-images.githubusercontent.com/61298440/81125410-aedfe400-8efd-11ea-9089-dcd48f25cd7a.jpg)
+![n](https://user-images.githubusercontent.com/61298440/81125424-b606f200-8efd-11ea-9eb7-a13fbb416c37.jpg)
+
+
+ 
 Sumar dos numero e imprimir resultado
 
 ![suma](https://user-images.githubusercontent.com/61298440/81124689-aedee480-8efb-11ea-9530-748d0314e778.jpg)
